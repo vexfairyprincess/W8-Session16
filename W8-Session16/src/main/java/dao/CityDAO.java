@@ -1,12 +1,12 @@
 package dao;
 
-import interfaces.IsCity;
+import interfaces.ICity;
 import jakarta.persistence.EntityManager;
 import models.City;
 
 import java.util.List;
 
-public class CityDAO implements IsCity{
+public class CityDAO implements ICity{
     @Override
     public void save(City city) {
         EntityManager em = EntityManagerAdmin.getInstance();

@@ -4,7 +4,7 @@ import models.City;
 
 import java.util.List;
 
-public interface IsCity {
+public interface ICity {
     public void save(City city);
     public City getCity(Long id);
     public void update(City city);
